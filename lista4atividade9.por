@@ -1,16 +1,24 @@
-//atividade 6  Mais que mil
+//9) Escreva um algoritmo que leia um valor inicial A e uma razão R e imprima uma sequência
+//em P.G. contendo 10 valores.
+
 
 programa
 {
-	
 	funcao inicio()
-	{	inteiro mil, primo, resultado
-		mil=1004+1008+1012+1016
-		primo=2+3+5+7
+
+	{
+		inteiro a, pg, n
+		real q
 		
-		escreva("== mais que mil ==\n")
-		
-		escreva(" O resultado é ", resultado)
+		escreva("Digite um valor inicial A: ")
+		leia(a)
+		escreva("\nDigite a razão Q: ")
+		leia(q)
+
+			para(n = 1; n <=10; n++)
+		{
+						
+		}
 		
 	}
 }
@@ -19,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 143; 
+ * @POSICAO-CURSOR = 332; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
